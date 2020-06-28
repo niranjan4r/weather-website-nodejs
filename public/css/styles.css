@@ -1,0 +1,54 @@
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    border-top: solid 1px #ddd;
+    color: #888888;
+    text-align: right;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.potrait {
+    width: 250px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #444;
+    background-color: #555;
+    color: #eee;
+    border-radius: 5%;
+    padding: 8px;
+}
