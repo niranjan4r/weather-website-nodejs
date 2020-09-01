@@ -31,15 +31,7 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: "About Me",
-        name: "Mr Captain"
-    })
-})
-
-app.get('/help', (req, res) => {
-    res.render('help', {
-        title: "This is the help page",
-        message: "We are very friendly people! Dont hesitate to talk to us!",
+        title: "About",
         name: "Niranjan R"
     })
 })
@@ -90,12 +82,6 @@ app.get('/products', (req, res) => {
             products: []
         })
     }
-})
-
-app.get('/help/*', (req, res) => {
-    res.render('404', {
-        errorMessage: "Help article not found! :("
-    })
 })
 
 app.get('*', (req, res) => {
